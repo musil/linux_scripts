@@ -1,0 +1,46 @@
+# https://editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+end_of_line = lf
+max_line_length = off
+
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.yml] # YAML
+indent_style = space
+indent_size = 2
+
+[*.json] # JSON
+indent_style = space
+indent_size = 2
+
+[*.js] # JavaScript
+indent_style = space
+indent_size = 2
+
+[*.css] # CSS
+indent_style = space
+indent_size = 2
+
+[*.html] # HTML
+indent_style = space
+indent_size = 2
+
+[*.php] # PHP
+indent_style = space
+indent_size = 2
+
+[*.py] # Python
+indent_style = space
+indent_size = 2
